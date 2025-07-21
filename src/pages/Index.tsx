@@ -13,11 +13,11 @@ const Index = () => {
       <Layout>
         <Header />
         <About />
-        <div className="border-t border-border-subtle my-16 lg:my-24" />
+        <div className="border-t border-border-subtle my-6 lg:my-8" />
         <Experience />
-        <div className="border-t border-border-subtle my-16 lg:my-24" />
+        <div className="border-t border-border-subtle my-6 lg:my-8" />
         <Projects />
-        <div className="border-t border-border-subtle my-16 lg:my-24" />
+        <div className="border-t border-border-subtle my-6 lg:my-8" />
         <Achievements />
       </Layout>
     </>

@@ -13,7 +13,7 @@ export const Layout = ({ children }: LayoutProps) => {
       transition={{ duration: 0.6, ease: "easeOut" }}
       className="min-h-screen bg-background"
     >
-      <div className="max-w-4xl mx-auto px-6 py-12 lg:py-20">
+      <div className="max-w-4xl mx-auto px-6 py-6 lg:py-10">
         {children}
       </div>
     </motion.div>

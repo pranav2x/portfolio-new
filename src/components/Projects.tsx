@@ -4,11 +4,6 @@ import { ArrowUpRight } from 'lucide-react';
 
 const projects = [
   {
-    name: 'portfolio website',
-    href: 'https://github.com/pranav2x/portfolio-new',
-    description: 'clean, minimal portfolio built with react and framer motion'
-  },
-  {
     name: 'Lexio',
     href: 'https://github.com/pranav2x/Lexio',
     description: 'minimal, distraction-free study tool that reads websites out loud with synced word highlights'

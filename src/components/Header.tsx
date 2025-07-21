@@ -9,7 +9,7 @@ const socialLinks = [
 
 export const Header = () => {
   return (
-    <header className="mb-20 lg:mb-32">
+    <header className="mb-10 lg:mb-16">
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}

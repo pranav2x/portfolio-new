@@ -16,10 +16,10 @@ export const Section = ({ id, title, children, className = "" }: SectionProps) =
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
       transition={{ duration: 0.5, ease: "easeOut" }}
-      className={`mb-16 lg:mb-24 ${className}`}
+      className={`mb-6 lg:mb-8 ${className}`}
     >
       {title && (
-        <h2 className="text-lg font-bold text-primary mb-8 lowercase">
+        <h2 className="text-lg font-bold text-primary mb-4 lowercase">
           {title}
         </h2>
       )}
