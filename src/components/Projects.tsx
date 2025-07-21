@@ -4,25 +4,21 @@ import { ArrowUpRight } from 'lucide-react';
 
 const projects = [
   {
-    name: 'portfolio v3',
-    href: '#',
+    name: 'portfolio website',
+    href: 'https://github.com/pranav2x/portfolio-new',
     description: 'clean, minimal portfolio built with react and framer motion'
   },
   {
-    name: 'task manager app',
-    href: '#',
-    description: 'productivity app with drag & drop, built for my school'
+    name: 'Lexio',
+    href: 'https://github.com/pranav2x/Lexio',
+    description: 'minimal, distraction-free study tool that reads websites out loud with synced word highlights'
   },
   {
-    name: 'weather dashboard',
-    href: '#',
-    description: 'beautiful weather app with animated backgrounds'
+    name: 'password generator',
+    href: 'https://github.com/pranav2x/PasswordGenerator',
+    description: 'secure password generator with adjustable length and character options, built with modern UI components'
   },
-  {
-    name: 'music player',
-    href: '#',
-    description: 'spotify-inspired interface with playlist management'
-  }
+
 ];
 
 export const Projects = () => {

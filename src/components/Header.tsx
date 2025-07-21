@@ -2,9 +2,9 @@ import { motion } from 'framer-motion';
 import { Github, Linkedin, Instagram, Mail } from 'lucide-react';
 
 const socialLinks = [
-  { icon: Github, href: '#', label: 'GitHub' },
-  { icon: Linkedin, href: '#', label: 'LinkedIn' },
-  { icon: Instagram, href: '#', label: 'Instagram' },
+  { icon: Github, href: 'https://github.com/pranav2x', label: 'GitHub' },
+  { icon: Linkedin, href: 'https://www.linkedin.com/in/pranav-rapelli-0161312a4/', label: 'LinkedIn' },
+  { icon: Instagram, href: 'https://www.instagram.com/pranav.2x/', label: 'Instagram' },
 ];
 
 export const Header = () => {
@@ -21,12 +21,12 @@ export const Header = () => {
         
         <div className="flex items-center gap-6 mb-6">
           <motion.a
-            href="mailto:hello@pranav.dev"
+            href="mailto:rapellipranav1@gmail.com"
             className="text-text-secondary hover:text-primary transition-colors duration-200 lowercase"
             whileHover={{ scale: 1.02 }}
             whileTap={{ scale: 0.98 }}
           >
-            hello@pranav.dev
+            rapellipranav1@gmail.com
           </motion.a>
         </div>
         
@@ -35,6 +35,8 @@ export const Header = () => {
             <motion.a
               key={label}
               href={href}
+              target="_blank"
+              rel="noopener noreferrer"
               className="text-text-muted hover:text-primary transition-colors duration-200"
               whileHover={{ scale: 1.1, y: -2 }}
               whileTap={{ scale: 0.95 }}

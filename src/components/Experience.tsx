@@ -4,23 +4,11 @@ import { ArrowUpRight } from 'lucide-react';
 
 const experiences = [
   {
-    company: 'tech startup xyz',
+    company: 'Place Holder*',
     href: '#',
-    description: 'building the future of something really cool',
-    tools: 'react, typescript, node.js'
+    description: 'Public relations intern *place holder*, managed social media accounts and fulfilled shipping orders and customer service requests'
   },
-  {
-    company: 'freelance projects',
-    href: '#',
-    description: 'helping local businesses with web development',
-    tools: 'next.js, tailwind, postgresql'
-  },
-  {
-    company: 'open source',
-    href: '#',
-    description: 'contributing to various react libraries',
-    tools: 'javascript, github, community'
-  }
+
 ];
 
 export const Experience = () => {
@@ -52,9 +40,7 @@ export const Experience = () => {
             <p className="text-text-secondary mb-2 lowercase">
               {exp.description}
             </p>
-            <p className="text-text-muted text-sm lowercase">
-              {exp.tools}
-            </p>
+
           </motion.div>
         ))}
       </div>

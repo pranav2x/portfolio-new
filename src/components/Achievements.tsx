@@ -2,11 +2,8 @@ import { motion } from 'framer-motion';
 import { Section } from './Section';
 
 const achievements = [
-  'won regional hackathon for best ui/ux design',
-  'ranked top 10 in state coding competition',
-  'built 15+ projects in the past year',
-  'mentored 5+ junior developers at school',
-  'featured on local tech blog for youth achievements'
+  'global elite and faceit level 8 in csgo',
+  'previously ranked top 100 in minemen club, minecraft server.',
 ];
 
 export const Achievements = () => {
