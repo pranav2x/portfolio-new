@@ -5,11 +5,11 @@ import { ArrowUpRight } from 'lucide-react';
 const projects = [
   {
     name: 'Lexio',
-    href: 'https://github.com/pranav2x/Lexio',
+    href: 'https://www.uselexio.dev/',
     description: 'minimal, distraction-free study tool that reads websites out loud with synced word highlights'
   },
   {
-    name: 'password generator',
+    name: 'basic password generator',
     href: 'https://github.com/pranav2x/PasswordGenerator',
     description: 'secure password generator with adjustable length and character options, built with modern UI components'
   },

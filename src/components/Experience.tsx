@@ -4,9 +4,9 @@ import { ArrowUpRight } from 'lucide-react';
 
 const experiences = [
   {
-    company: 'Place Holder*',
+    company: 'build.ai',
     href: '#',
-    description: 'Public relations intern *place holder*, managed social media accounts and fulfilled shipping orders and customer service requests'
+    description: 'Mainly worked as a public relations intern, managed social media accounts and fulfilled shipping orders and customer service requests'
   },
 
 ];
