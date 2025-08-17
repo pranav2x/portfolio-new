@@ -5,8 +5,8 @@ import { ArrowUpRight } from 'lucide-react';
 const experiences = [
   {
     company: 'build.ai',
-    href: '#',
-    description: 'Mainly worked as a public relations intern, managed social media accounts and fulfilled shipping orders and customer service requests'
+    href: 'https://build.ai',
+    description: 'Mainly worked as an operations intern, assisted across multiple departments, including handling product shipping and logistics, managing the company’s twitter account, and supporting day-to-day operational tasks.'
   },
 
 ];

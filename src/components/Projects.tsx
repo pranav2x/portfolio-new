@@ -8,12 +8,8 @@ const projects = [
     href: 'https://www.uselexio.dev/',
     description: 'minimal, distraction-free study tool that reads websites out loud with synced word highlights'
   },
-  {
-    name: 'basic password generator',
-    href: 'https://github.com/pranav2x/PasswordGenerator',
-    description: 'secure password generator with adjustable length and character options, built with modern UI components'
-  },
 
+  
 ];
 
 export const Projects = () => {
