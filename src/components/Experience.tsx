@@ -6,7 +6,7 @@ const experiences = [
   {
     company: 'build.ai',
     href: 'https://build.ai',
-    description: 'Mainly worked as an operations intern, assisted across multiple departments, including handling product shipping and logistics, managing the company’s twitter account, and supporting day-to-day operational tasks.'
+    description: 'I was the first intern at build.ai, where I helped across multiple departments, including handling product shipping and logistics, managing the company’s twitter account, and supporting day-to-day tasks.'
   },
 
 ];

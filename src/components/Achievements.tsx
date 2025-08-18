@@ -8,7 +8,7 @@ const achievements = [
 
 export const Achievements = () => {
   return (
-    <Section id="achievements" title="achievements">
+    <Section id="personal achievements" title="personal achievements">
       <div className="space-y-4">
         {achievements.map((achievement, index) => (
           <motion.div
